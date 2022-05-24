@@ -1,0 +1,168 @@
+body {
+  padding: 0px;
+  margin: 0px;
+}
+.home{
+  position: fixed;
+ 
+}
+header {
+  text-align: center;
+  font-size: 30px;
+}
+
+nav ul li:hover {
+  cursor: pointer;
+
+  color: skyblue;
+  transition: 0.5s;
+}
+
+nav ul li {
+  display: inline;
+  margin: 5px;
+  padding: 5px;
+  text-align: center;
+}
+nav ul li a{
+  text-decoration: none;
+  color:black;
+}
+nav ul li a:hover{
+  color: skyblue;
+  transition: 0.5s;
+  border: 1px solid skyblue;
+  border-radius: 20px;
+}
+}
+header h3 {
+  color: skyblue;
+}
+header h2 {
+  font-size: 15px;
+  border: 1px solid black;
+  border-radius: 20px;
+  width: 20%;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+header h2:hover {
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  transition: 5s;
+}
+
+}
+.blog {
+ background: white;
+ 
+}
+#thombe img:hover {
+  cursor: pointer;
+  transform: scale(0.5);
+  transition: 0.5s;
+}
+.tee {
+  display: flex;
+  justify-content: center;
+  background-image: linear-gradient(white,skyblue);
+}
+#self {
+  text-align: center;
+}
+#self h3 {
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 5px;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 10px 10px 20px blue;
+}
+#self h3:hover {
+  cursor: pointer;
+  transition: scale(1);
+  transition: 0.5s;
+  background-color: black;
+  color: white;
+}
+#self img {
+  margin-left: auto;
+  margin-right: auto;
+}
+.serv1 {
+  width: 20%;
+  height: 40%
+  border : 1px solid blue;
+  margin: 40px;
+  padding: 5px;
+  border-top: 4px solid purple;
+  border-radius: 20px;
+  border-bottom: 4px solid purple;
+  position:left;
+}
+#services {
+  display: flex;
+  justify-content: center;
+  background-image:linear-gradient(white,skyblue);
+}
+h1 {
+  text-align: center;
+  
+}
+.serv1:hover {
+  cursor: pointer;
+  opacity: 1;
+  color:white;
+  transition: 0.5s;
+  transform:translateY(0.5);
+  border: 1px solid black;
+  position:right;
+  background-color:skyblue;
+
+}
+#self img {
+  border-radius: 270px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.self em {
+  color: red;
+}
+.nic {
+  display: flex;
+  justify-content: space-evenly;
+}
+footer ul li {
+  color: blue;
+  margin: 10px;
+  padding: 5px;
+  margin-bottom: 50px;
+}
+.search input {
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 5px;
+  margin-left: 10px;
+}
+.media img {
+  opacity: 1;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.media img:hover {
+  cursor: pointer;
+  transition: 0.5s;
+  transform: scale(1.5);
+  opacity: 0.9;
+}
+footer{
+  text-align: center;
+}
+.blast{
+  background-image:linear-gradient(white,skyblue)
+}
